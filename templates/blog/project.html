@@ -1,0 +1,73 @@
+{% extends "blog/base_generic.html" %}
+
+{% load staticfiles %}
+{% block content %}
+
+    <!-- MAIN -->
+    <div role="main" id="main">
+        <div class="wrapper">
+
+            <!-- page-content -->
+            <div class="page-content portfolio-content">
+
+                <!-- entry-content -->
+                <div class="entry-content cf">
+
+                    <!-- SLIDER -->
+                    <div class="slider-wrapper theme-default">
+                        <div class="ribbon"></div>
+                        <div id="slider-project" class="nivoSlider">
+                            {% for picture in gallery.imagemodel_set.all %}
+                                <img src="{{ picture.image.url }}" alt=""/>
+                            {% endfor %}
+                        </div>
+                        <!-- ENDS SLIDER -->
+
+                        <h2>REGULAR PAGE</h2>
+                        <!-- project content -->
+                        <div class="project-content">
+                            <p><br>{{ gallery.description }}
+                            </p>
+                        </div>
+                        <!-- ENDS project content -->
+
+                        <!-- project info -->
+                        <div class="project-info">
+                            <p><strong>Client</strong>{{ gallery.author }}</p>
+                            <p><strong>Date</strong>{{ gallery.time }}</p>
+                            <p><strong>Category</strong>{{ gallery.category }}</p>
+                        </div>
+                        <!-- ENDS project info -->
+
+                    </div>
+                    <!-- ENDS entry-content -->
+
+                    <div class="c-1"></div>
+                    <div class="c-2"></div>
+                    <div class="c-3"></div>
+                    <div class="c-4"></div>
+                </div><!-- ENDS page-content -->
+            </div>
+
+            <!-- related -->
+            <div class="related-projects">
+                <h2 class="related-heading">Related Gallery</h2>
+                <ul class="related-list cf">
+                    {% for related in related_list %}
+                        <li>
+                            <a href={{ related.get_absolute_url }} class="thumb"><img
+                                    src="{{ related.imagemodel_set.all.0.image.thumb_url }}" alt=""/></a>
+                            <a href={{ related.get_absolute_url }}>{{ related.title }}</a>
+                        </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+            <!-- ENDS related -->
+
+
+        </div>
+    </div>
+    <!-- ENDS MAIN -->
+
+{% endblock %}

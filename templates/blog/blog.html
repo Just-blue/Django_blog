@@ -1,0 +1,174 @@
+{% extends "blog/base_generic.html" %}
+
+{% load staticfiles %}
+{% load blog_tags %}
+{% block content %}
+
+    <!-- MAIN -->
+    <div role="main" id="main">
+        <div class="wrapper cf">
+            <!-- posts list -->
+            <div id="posts-list" class="cf">
+                {% if error_msg %}
+                    <p>{{ error_msg }}</p>
+                {% endif %}
+                {% for post in post_list %}
+
+                    <article>
+                        <div class="feature-image">
+                            <a data-toggle="tooltip" title="阅读全文" href="{{ post.get_absolute_url }}"><img
+                                    src="{{ post.image.thumb_url }} " alt="Thumbnail"/></a>
+                            <div class="entry-date">
+
+                                <div class="month">{{ post.get_time }}</div>
+                                <div class="number">{{ post.time.day }}</div>
+
+                            </div>
+                        </div>
+                        <div class="excerpt">
+                            <a href="{{ post.get_absolute_url }}" class="post-heading">{{ post.title }}</a>
+                            <p>
+
+                            </p>
+                            <p>
+                                {{ post.excerpt }}
+                            </p>
+                        </div>
+                        <div class="meta">
+                            <span class="glyphicon glyphicon-user"></span><a>{{ post.author }} </a>
+                            <span class="glyphicon glyphicon-eye-open"></span><a>{{ post.views }} </a>
+                            <span class="glyphicon glyphicon-comment"></span><a>{{ post.commentmodel_set.count }}</a>
+                            <span class="glyphicon glyphicon-bookmark"></span><a
+                                href="{% url 'blog:category' post.category.pk %}">{{ post.category }}</a>
+                        </div>
+                        <i class="tape"></i>
+                    </article>
+                {% empty %}
+                    <div class="excerpt">
+
+                        <p><br><br>
+                            NOTHING !!!
+                        </p>
+
+                        <a style="border-bottom: 2px solid #000000;" href="{% url 'blog:blog' %}"> 回到博客</a>
+                    </div>
+
+                {% endfor %}
+
+                <!-- page-navigation -->
+                {% if is_paginated %}
+                    <div class="page-navigation cf">
+                        {% if page_obj.has_previous %}
+                            <div class="nav-next"><a href="?page={{ page_obj.previous_page_number }}">上一页</a></div>
+                        {% endif %}
+
+                        {% if page_obj.has_next %}
+                            <div class="nav-previous"><a href="?page={{ page_obj.next_page_number }}">下一页</a></div>
+                        {% endif %}
+
+                        {#                    <p style="text-align:left" class="current">第 {{ page_obj.number }} 页 / 共 {{ paginator.num_pages }}#}
+                        {#                        页#}
+                        {#                    </p>#}
+                    </div>
+
+                    <!--ENDS page-navigation -->
+
+                {% endif %}
+            </div>
+
+            <!-- ENDS posts list -->
+
+            <!-- sidebar -->
+            <aside id="sidebar">
+                <ul>
+                    <li class="block">
+                        <div class="sbar-content" id="search_box">
+                            <img id="search_icon"
+                                 src="{% static 'blog/img/search.png' %}"
+                                 width="40">
+                            <div id="search_form_box">
+                                <form id="searchform" action="{% url 'blog:search' %}" method="get">
+
+                                    <input id="search_content" type="text" name="q" placeholder="Search" required>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="block">
+                        <h4 class="heading">ABOUT ME</h4>
+                        <div class="side-bar-box self-introduction">
+                            <div class="sbar-content">
+                                <div class="avatar">
+                                    <img src="{% static 'blog/img/head.png' %} " class="img-circle"
+                                         width="80%">
+                                </div>
+                                <div class="nickname">
+                                    <span>Leon</span>
+                                </div>
+                                <div class="intro">
+                                    <p>I’m Leon, and let me give you a warm welcome to visit my blog site. I hope
+                                        you’ll enjoy it. Also, you can visit my <b><a href="/">HOME PAGE</a></b> to
+                                        learn more about me.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Toggle -->
+                    <li class="block">
+                        <h4 class="heading">Category</h4>
+                        {% get_categories as categories_list %}
+                        {% for category in categories_list %}
+                            <div class="toggle-trigger"><i></i>{{ category.name }} <span
+                                    class="post-count">({{ category.num_posts }})</span></div>
+                            <ul class="toggle-container">
+
+                                {% for post_cate in category.postmodel_set.all %}
+                                    <li class="cat-item">
+                                        <a href="{{ post_cate.get_absolute_url }}"><span
+                                                class="glyphicon glyphicon-share-alt"
+                                                style="color: #f3e4c8"></span> {{ post_cate.title }}</a>
+                                    </li>
+                                {% empty %}
+                                    <li style="text-align: center">暂无!</li>
+                                {% endfor %}
+                            </ul>
+                        {% empty %}
+                            <li style="text-align: center">暂无分类!</li>
+                        {% endfor %}
+
+                    </li>
+                    <!-- ENDS Toggle -->
+
+                    <li class="widget-tag-cloud">
+                        <h4 class="heading">TAGS</h4>
+                        {% get_tags as tags_list %}
+                        <ul>
+                            {% for tag in tags_list %}
+                                <li>
+                                    <a href="{% url 'blog:tag' tag.pk %}">{{ tag.name }}</a>
+                                </li>
+                            {% empty %}
+                                <li style="text-align: center">暂无标签!</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+
+            </aside>
+            <!-- ENDS sidebar -->
+
+        </div>
+    </div>
+    <!-- ENDS MAIN -->
+{% endblock %}
+
+{% block js %}
+    <script>
+        $(document).ready(function () {
+            $("#g-3").addClass("active");
+        });
+    </script>
+{% endblock %}

@@ -1,0 +1,80 @@
+{% extends "blog/base_generic.html" %}
+
+{% load staticfiles %}
+{% block content %}
+
+    <!-- MAIN -->
+    <div role="main" id="main">
+        <div class="wrapper">
+            {% if gallery_list.count %}
+
+                <ul id="filter-buttons">
+
+                    <li><a href="#" data-filter="*" class="selected">SHOW ALL</a></li>
+
+                    {% for gallery in gallery_list %}
+                        <li><a href="#" data-filter=".{{ gallery.category }}">{{ gallery.category }}</a></li>
+
+                        {#                <li><a href="#" data-filter=".print">PRINT</a></li>#}
+                        {#                <li><a href="#" data-filter=".design">DESINGGN</a></li>#}
+                        {#                <li><a href="#" data-filter=".photo">PHOTO</a></li>#}
+                    {% endfor %}
+                </ul>
+
+                <!-- Filter container -->
+
+                <ul id="filter-container" class="feature cf">
+
+                    {% for gallery in gallery_list %}
+                        <li class="{{ gallery.category }}">
+                            <a href="{{ gallery.get_absolute_url }}" class="thumb"><img
+                                    src="{{ gallery.imagemodel_set.all.0.image.thumb_url }}"
+                                    alt=""/>
+                                <div class="date"><span class="d">{{ gallery.time.day }}</span><span
+                                        class="m">{{ gallery.get_month }}</span></div>
+                            </a>
+                            <div class="caption">{{ gallery.description }}</div>
+                        </li>
+                    {% endfor %}
+
+                </ul><!-- ENDS Filter container -->
+
+                <!-- page-navigation -->
+                {% if is_paginated %}
+                    <div class="page-navigation cf">
+                        {% if page_obj.has_previous %}
+                            <div class="nav-next"><a href="?page={{ page_obj.previous_page_number }}">上一页</a></div>
+                        {% endif %}
+
+                        {% if page_obj.has_next %}
+                            <div class="nav-previous"><a href="?page={{ page_obj.next_page_number }}">下一页</a></div>
+                        {% endif %}
+
+                        {#                    <p style="text-align:left" class="current">第 {{ page_obj.number }} 页 / 共 {{ paginator.num_pages }}#}
+                        {#                        页#}
+                        {#                    </p>#}
+                    </div>
+                {% endif %}
+                <!--ENDS page-navigation -->
+            {% else %}
+
+                <p> <br><br>
+                    NOTHING !!!
+                </p>
+
+            {% endif %}
+        </div>
+    </div>
+    <!-- ENDS MAIN -->
+
+{% endblock %}
+
+{% block js %}
+
+    <script>
+        $(document).ready(function () {
+            $("#g-4").addClass("current-menu-item")
+        });
+    </script>
+
+{% endblock %}

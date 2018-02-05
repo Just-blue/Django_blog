@@ -1,0 +1,82 @@
+﻿{% extends "blog/base_generic.html" %}
+
+{% load staticfiles %}
+{% block content %}
+    <!-- MAIN -->
+    <div role="main" id="main">
+        <div class="wrapper">
+
+            <!-- SLIDER -->
+            <div class="slider-wrapper theme-default theme-project theme-home">
+                <div class="ribbon"></div>
+                <div id="slider" class="nivoSlider">
+                    <img src="{% static 'blog/img/main_pic/flow_1.jpg' %}" alt=""/>
+                    <img src="{% static 'blog/img/main_pic/flow_2.jpg' %}" alt=""/>
+                    <img src="{% static 'blog/img/main_pic/flow_3.jpg' %}" alt=""/>
+                </div>
+            </div>
+            <!-- ENDS SLIDER -->
+
+            <!-- headline -->
+            <div class="headline">
+                Welcome visit my website <br>and wish you have a good time !
+            </div>
+            <!-- ENDS headline -->
+
+            <!-- Feature -->
+            <ul id="filter-container-feature" class="feature">
+                <li>
+                    <a href="blog/detail" class="thumb"><img src="{% static 'blog/img/dummies/430x500d.jpg' %}" alt=""/>
+                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+                    </a>
+                    <div class="caption">Lorem ipsum dolor amet</div>
+                </li>
+                <li>
+                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/dummies/430x500b.jpg' %}" alt=""/>
+                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+                    </a>
+                    <div class="caption">Lorem ipsum dolor amet</div>
+                </li>
+                <li>
+                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/dummies/430x500c.jpg' %}" alt=""/>
+                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+                    </a>
+                    <div class="caption">Lorem ipsum dolor amet</div>
+                </li>
+            </ul>
+
+            <ul class="feature-2 row" style="position: relative">
+                <li>
+                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/main_pic/flow_1.jpg' %}"
+                                                             alt=""/>
+                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+                    </a>
+                    <div class="caption">Lorem ipsum dolor amet</div>
+                </li>
+
+                <li>
+                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/main_pic/flow_2.jpg' %}"
+                                                             alt=""/>
+                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
+                    </a>
+                    <div class="caption">Lorem ipsum dolor amet</div>
+                </li>
+
+            </ul>
+
+
+            <!-- ENDS feature -->
+
+
+        </div>
+    </div>
+    <!-- ENDS MAIN -->
+{% endblock %}
+
+{% block js %}
+    <script>
+        $(document).ready(function () {
+            $("#g-1").addClass("current-menu-item");
+        });
+    </script>
+{% endblock %}

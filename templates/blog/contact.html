@@ -1,0 +1,88 @@
+{% extends "blog/base_generic.html" %}
+
+{% load staticfiles %}
+{% block content %}
+	<!-- MAIN -->
+	<div role="main" id="main">
+		<div class="wrapper">
+		
+			<!-- page-content -->
+			<div class="page-content">
+				
+				<!-- GOOGLE MAPS -->
+				<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true" ></script>
+				<script type="text/javascript">
+					function initialize() {
+						var latlng = new google.maps.LatLng(-34.397, 150.644);
+						var myOptions = {
+						  zoom: 8,
+						  center: latlng,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+					var map = new google.maps.Map(document.getElementById("map_canvas"),
+					    myOptions);
+					}
+				</script>
+				<h2 class="heading">Location</h2>
+				<div id="map_canvas"></div>
+				<p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet.</p>
+				<!-- ENDS GOOGLE MAPS -->
+					
+			
+				<h2 class="heading">Contact Form</h2>
+				<!-- form -->
+				<form id="contactForm" action="#" method="post">
+					<fieldset>
+														
+						<p>
+							<label for="name" >Name</label>
+							<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+						</p>
+						
+						<p>
+							<label for="email" >Email</label>
+							<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+						</p>
+						
+						<p>
+							<label for="web">Website</label>
+							<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+						</p>
+						
+						<p>
+							<label for="comments">Message</label>
+							<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+						</p>
+						
+						<!-- send mail configuration -->
+						<input type="hidden" value="your@email.com" name="to" id="to" />
+						<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
+						<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+						<!-- ENDS send mail configuration -->
+						
+						<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+					</fieldset>
+					
+				</form>
+				<p id="sent-form-msg" class="success">Form data sent. Thanks for your comments.</p>
+				<!-- ENDS form -->	
+				<div class="c-1"></div>
+				<div class="c-2"></div>
+				<div class="c-3"></div>
+				<div class="c-4"></div>
+			</div><!-- ENDS page-content -->
+			
+	  
+	  
+	  </div>
+	</div>
+	<!-- ENDS MAIN -->
+{% endblock %}
+
+{% block js %}
+    <script>
+        $(document).ready(function () {
+            $("#g-5").addClass("current-menu-item");
+        });
+    </script>
+{% endblock %}
