@@ -75,8 +75,9 @@
 .lists-star ul,
 .lists-heart ul {
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
+
 
 .lists-check ul li {
     list-style-image: url(../img/bullets/check.png);

@@ -328,7 +328,7 @@ nav {
 }
 
 .feature-2 li .caption {
-    padding: 10px 10px 20px 10px;
+    padding: 22px 10px 12px 10px;
     text-align: center;
 }
 
@@ -376,6 +376,21 @@ nav {
     border-bottom: 5px solid #585246;
     margin-bottom: 30px;
     padding-bottom: 10px;
+}
+
+.page-content .aboutme {
+    font-family: 'Hiragino Sans GB';
+}
+
+.page-content .aboutme .aaa {
+    margin-bottom: 21px;
+    color: #cb5432;
+}
+
+.page-content .aboutme .email {
+    color: #cb5432;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .page-content .c-1,

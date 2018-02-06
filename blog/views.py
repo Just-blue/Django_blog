@@ -6,15 +6,24 @@ from blog.models import PostModel, CategoryModel, TagModel
 from django.views.generic import ListView, DetailView
 from comments.forms import CommentForm
 
-
 # 主页视图
+from gallery.models import GalleryModel
+from message.forms import MessageForm
+
+
 class IndexView(ListView):
     model = PostModel
     template_name = 'blog/index.html'
     context_object_name = 'post_list'
 
+    def get_context_data(self, **kwargs):
+        context = super(IndexView, self).get_context_data(**kwargs)
+        gallery_list = GalleryModel.objects.all().order_by('-time')[:3]
+        context.update({'gallery_list': gallery_list})
+        return context
 
-#博客主页视图
+
+# 博客主页视图
 class BlogView(ListView):
     model = PostModel
     template_name = 'blog/blog.html'
@@ -29,11 +38,12 @@ class BlogView(ListView):
     #                                                        )
 
 
-#分类标签视图
+# 分类标签视图
 class CategoryView(BlogView):
     def get_queryset(self):
         cate = get_object_or_404(CategoryModel, pk=self.kwargs.get('pk'))
         return super(CategoryView, self).get_queryset().filter(category=cate).order_by('-time')
+
     '''
         等价：
         cate = get_object_or_404(CategoryModel, pk=pk)
@@ -41,7 +51,8 @@ class CategoryView(BlogView):
         return render(request, 'blog/blog.html', context={'post_list': post_list})
     '''
 
-#Tag标签视图
+
+# Tag标签视图
 class TagView(BlogView):
     def get_queryset(self):
         tag = get_object_or_404(TagModel, pk=self.kwargs.get('pk'))
@@ -96,6 +107,7 @@ class PostDetailView(DetailView):
         })
         return context
 
+
 def search(request):
     q = request.GET.get('q')
     error_msg = ''
@@ -106,7 +118,7 @@ def search(request):
 
     post_list = PostModel.objects.filter(Q(title__icontains=q) | Q(body__icontains=q))
     return render(request, 'blog/blog.html', {'error_msg': error_msg,
-                                               'post_list': post_list})
+                                              'post_list': post_list})
 
 
 def page(request):
@@ -116,10 +128,12 @@ def page(request):
 class ContactView(IndexView):
     template_name = 'blog/contact.html'
 
-
+    def get_context_data(self, **kwargs):
+        context = super(ContactView, self).get_context_data(**kwargs)
+        form = MessageForm()
+        context.update({'form': form})
+        return context
 
 
 def project(request):
     return render(request, 'blog/project.html')
-
-

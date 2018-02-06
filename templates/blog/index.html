@@ -19,49 +19,37 @@
 
             <!-- headline -->
             <div class="headline">
-                Welcome visit my website <br>and wish you have a good time !
+               <br>  Welcome visit my website <br>and wish you have a good time !<br><br>
             </div>
             <!-- ENDS headline -->
 
             <!-- Feature -->
-            <ul id="filter-container-feature" class="feature">
-                <li>
-                    <a href="blog/detail" class="thumb"><img src="{% static 'blog/img/dummies/430x500d.jpg' %}" alt=""/>
-                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
-                    </a>
-                    <div class="caption">Lorem ipsum dolor amet</div>
-                </li>
-                <li>
-                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/dummies/430x500b.jpg' %}" alt=""/>
-                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
-                    </a>
-                    <div class="caption">Lorem ipsum dolor amet</div>
-                </li>
-                <li>
-                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/dummies/430x500c.jpg' %}" alt=""/>
-                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
-                    </a>
-                    <div class="caption">Lorem ipsum dolor amet</div>
-                </li>
+            <ul class="feature-2 row" style="position: relative">
+                {% for post in post_list %}
+                    <li>
+                        <a href="{{ post.get_absolute_url }}" class="thumb"><img src="{{ post.image.thumb_url }}"
+                                                                                 alt=""/>
+                            <div class="date"><span class="d">{{ post.time.day }}</span><span
+                                    class="m">{{ post.get_time }}</span></div>
+                        </a>
+                        <div class="caption">{{ post.title }}</div>
+                    </li>
+                {% endfor %}
+
             </ul>
 
-            <ul class="feature-2 row" style="position: relative">
-                <li>
-                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/main_pic/flow_1.jpg' %}"
-                                                             alt=""/>
-                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
-                    </a>
-                    <div class="caption">Lorem ipsum dolor amet</div>
-                </li>
+            <ul id="filter-container-feature" class="feature">
+                {% for gallery in gallery_list %}
+                    <li>
+                        <a href="{{ gallery.get_absolute_url }}" class="thumb"><img
+                                src="{{ gallery.imagemodel_set.all.0.image.thumb_url }}" alt=""/>
+                            <div class="date"><span class="d">{{ gallery.time.day }}</span><span
+                                    class="m">{{ gallery.get_month }}</span></div>
+                        </a>
+                        <div class="caption">{{ gallery.title }}</div>
+                    </li>
 
-                <li>
-                    <a href="detail.html" class="thumb"><img src="{% static 'blog/img/main_pic/flow_2.jpg' %}"
-                                                             alt=""/>
-                        <div class="date"><span class="d">23</span><span class="m">Jan</span></div>
-                    </a>
-                    <div class="caption">Lorem ipsum dolor amet</div>
-                </li>
-
+                {% endfor %}
             </ul>
 
 

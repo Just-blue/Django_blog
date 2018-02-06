@@ -167,11 +167,11 @@
                     <span>{{ form.email.errors }}</span>
 
 
-                    <p class="comment-form-url"><label for="url">Website</label>
+                    <p class="comment-form-url"><label for="{{ form.url.id_for_label }}">Website</label>
 
                     <p>{{ form.url }}</p>
-                    {{ form.url.errors }}
-                    </p>
+                    <span>{{ form.url.errors }}</span>
+
 
                     <p class="comment-form-comment"><label for="{{ form.text.id_for_label }}">Comment</label>
                         {{ form.text }}

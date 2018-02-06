@@ -32,9 +32,7 @@ class GalleryModel(models.Model):
 
 
 class ImageModel(models.Model):
+
     gallery = models.ForeignKey(GalleryModel,on_delete=models.SET_NULL, null=True)
 
     image = ThumbnailImageField(upload_to='./gallery/')
-
-    def __str__(self):
-        return self.title
