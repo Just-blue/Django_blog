@@ -345,13 +345,12 @@
     font-weight: bold;
     cursor: pointer;
     overflow: hidden;
+    padding-left: -10px;
     padding: 5px 5px 5px 10px;
 
 }
 
 .toggle-trigger i {
-    transform: translate(-120%, 0%);
-    position: absolute;
     float: left;
     width: 31px;
     height: 31px;

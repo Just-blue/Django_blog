@@ -2,6 +2,7 @@
 
 {% load staticfiles %}
 {% load blog_tags %}
+{% load custom_markdown %}
 
 {% block content %}
 
@@ -30,7 +31,7 @@
 
                         </div>
                         <p>
-                            {{ post.body | safe }}
+                            {{ post.body|custom_markdown }}
                         </p>
                     </div>
                     <div class="meta">

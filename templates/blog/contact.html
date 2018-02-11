@@ -4,104 +4,105 @@
 {% block content %}
     <!-- MAIN -->
     <div role="main" id="main">
-    <div class="wrapper">
+        <div class="wrapper">
 
-        <!-- page-content -->
-        <div class="page-content">
+            <!-- page-content -->
+            <div class="page-content">
 
-            <h2 class="heading">About Me</h2>
-            <div class="aboutme">
+                <h2 class="heading">About Me</h2>
+                <div class="aboutme">
 
-                <p class="aaa">
-                    首先欢迎你来到我的网站，但愿我网站里的内容能让你收获一份愉悦
-                </p>
-
-                <div class="feature-image">
-                    <img src="{% static 'blog/img/smile.jpg' %}">
-                    <p>
-                        <br>
-
+                    <p class="aaa">
+                        首先欢迎你来到我的网站，但愿我网站里的内容能让你收获一份愉悦
                     </p>
-                    <div class="lists-check">
-                        <ul>
-                            <li>先介绍下自己，本人还只是菜鸟一枚，因对编程兴趣浓烈所以开始了我的自学之路</li>
+
+                    <div class="feature-image">
+                        <img src="{% static 'blog/img/smile.jpg' %}">
+                        <p>
                             <br>
-                            <li>制作这个网站的的初衷只是为了学习用Django进行web开发，同时能有一个很好的平台记录生活，分享生活</li>
+
+                        </p>
+                        <div class="lists-check">
+                            <ul>
+                                <li>先介绍下自己，本人还只是菜鸟一枚，因对编程兴趣浓烈所以开始了我的自学之路</li>
+                                <br>
+                                <li>制作这个网站的的初衷只是为了学习用Django进行web开发，同时能有一个很好的平台记录生活，分享生活</li>
+                                <br>
+                                <li>我的兴趣爱好也比较多，足球，电影，骑行，摄影，小说。。。</li>
+                                <br>
+                                <li>喜欢编程，剪片子，很享受喜欢这种创作的过程</li>
+                                <br>
+                                <li>目前还是web开发新手，前端知识很懵，如果您对于本网站有什么建议或意见，可以通过下面的留言或邮箱反馈与我，谢谢</li>
+                            </ul>
+                        </div>
+
+                        <p class="email">
                             <br>
-                            <li>我的兴趣爱好也比较多，足球，电影，骑行，摄影，小说。。。</li>
+                            Email ： ttykowlu@126.com
                             <br>
-                            <li>喜欢编程，剪片子，很享受喜欢这种创作的过程</li>
-                            <br>
-                            <li>目前还是web开发新手，前端知识很懵，如果您对于本网站有什么建议或意见，可以通过下面的留言或邮箱反馈与我，谢谢</li>
-                        </ul>
+                        </p>
                     </div>
 
-                    <p class="email">
-                        <br>
-                        Email ： ttykowlu@126.com
-                        <br>
-                    </p>
-                </div>
+
+                    <h2 class="heading">Contact Form</h2>
+                    <!-- form -->
+                    <form id="contactForm" action="{% url 'message:message' %}" method="post">
+                        <fieldset>
+
+                            <p>
+                                <label for="{{ form.name.id_for_label }}">Name</label>
+                            <p>{{ form.name }}</p>
+                            <span>{{ form.name.errors }}</span>
+                            </p>
+
+                            <p>
+                                <label for="{{ form.email.id_for_label }}">Email</label>
+                            <p>{{ form.email }}</p>
+                            <span>{{ form.email.errors }}</span>
+
+                            </p>
+
+                            <p>
+                                <label for="{{ form.web.id_for_label }}">Website</label>
+                                {{ form.web }}
+                                {{ form.web.errors }}
+                            </p>
+
+                            <p>
+                                <label for="{{ form.content.id_for_label }}">Message</label>
+                            <p>{{ form.content }}</p>
+                            <span>{{ form.content.errors }}</span>
+                            </p>
+
+                            <!-- send mail configuration -->
+                            <input type="hidden" value="your@email.com" name="to" id="to"/>
+                            <input type="hidden" value="ENter the subject here" name="subject" id="subject"/>
+                            <input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl"/>
+                            <!-- ENDS send mail configuration -->
+
+                            <p class="form-submit">
+                                <input name="submit" type="submit" id="submit" value="Submit">
+                            </p>
+                            {% csrf_token %}
+                        </fieldset>
+                    </form>
+                    {#                <p id="sent-form-msg" class="success">Form data sent. Thanks for your comments.</p>#}
+                    <!-- ENDS form -->
+                    <div class="c-1"></div>
+                    <div class="c-2"></div>
+                    <div class="c-3"></div>
+                    <div class="c-4"></div>
+                </div><!-- ENDS page-content -->
 
 
-                <h2 class="heading">Contact Form</h2>
-                <!-- form -->
-                <form id="contactForm" action="{% url 'message:message' %}" method="post">
-                    <fieldset>
-
-                        <p>
-                            <label for="{{ form.name.id_for_label }}">Name</label>
-                        <p>{{ form.name }}</p>
-                        <span>{{ form.name.errors }}</span>
-                        </p>
-
-                        <p>
-                            <label for="{{ form.email.id_for_label }}">Email</label>
-                        <p>{{ form.email }}</p>
-                        <span>{{ form.email.errors }}</span>
-
-                        </p>
-
-                        <p>
-                            <label for="{{ form.web.id_for_label }}">Website</label>
-                            {{ form.web }}
-                            {{ form.web.errors }}
-                        </p>
-
-                        <p>
-                            <label for="{{ form.content.id_for_label }}">Message</label>
-                        <p>{{ form.content }}</p>
-                        <span>{{ form.content.errors }}</span>
-                        </p>
-
-                        <!-- send mail configuration -->
-                        <input type="hidden" value="your@email.com" name="to" id="to"/>
-                        <input type="hidden" value="ENter the subject here" name="subject" id="subject"/>
-                        <input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl"/>
-                        <!-- ENDS send mail configuration -->
-
-                        <p class="form-submit">
-                            <input name="submit" type="submit" id="submit" value="Submit">
-                        </p>
-                        {% csrf_token %}
-                    </fieldset>
-                </form>
-{#                <p id="sent-form-msg" class="success">Form data sent. Thanks for your comments.</p>#}
-                <!-- ENDS form -->
-                <div class="c-1"></div>
-                <div class="c-2"></div>
-                <div class="c-3"></div>
-                <div class="c-4"></div>
-            </div><!-- ENDS page-content -->
-
-
+            </div>
         </div>
     </div>
     <!-- ENDS MAIN -->
 {% endblock %}
 
 {% block js %}
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             $("#g-5").addClass("current-menu-item");
         });

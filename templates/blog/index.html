@@ -25,7 +25,7 @@
 
             <!-- Feature -->
             <ul class="feature-2 row" style="position: relative">
-                {% for post in post_list %}
+                {% for post in post_list|slice:":2"  %}
                     <li>
                         <a href="{{ post.get_absolute_url }}" class="thumb"><img src="{{ post.image.thumb_url }}"
                                                                                  alt=""/>
