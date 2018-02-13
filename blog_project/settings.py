@@ -27,7 +27,7 @@ MEDIA_URL='/uploads/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'uploads')
 
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.justhao.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.justhao.com','haozhiqing.com']
 # Application definition
 
 INSTALLED_APPS = [
