@@ -245,6 +245,7 @@ nav {
 }
 
 .feature li {
+    display: block;
     position: relative;
     background: #f3e4c8;
     width: 300px;
@@ -254,6 +255,7 @@ nav {
 }
 
 .feature li .thumb {
+    padding-top: 9px;
     display: block;
     margin: 10px;
     width: 280px;
