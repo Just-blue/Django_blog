@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/colorful.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/colorful.css" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/new.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/new.css" />
-    </list>
+    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,18 +75,18 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="750" column="0" lean-forward="false" selection-start-line="750" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="1086" column="18" lean-forward="false" selection-start-line="1086" selection-start-column="18" selection-end-line="1086" selection-end-column="18" />
+            <state relative-caret-position="339">
+              <caret line="1096" column="19" lean-forward="true" selection-start-line="1096" selection-start-column="19" selection-end-line="1096" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -106,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colorful.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="colorful.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/static/blog/css/colorful.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -156,8 +152,8 @@
       <find>sider</find>
       <find>side</find>
       <find>img-circle</find>
-      <find>code</find>
       <find>back</find>
+      <find>code</find>
     </findStrings>
     <replaceStrings>
       <replace>$1</replace>
@@ -857,14 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="750" column="0" lean-forward="false" selection-start-line="750" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/static/blog/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -873,18 +861,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/colorful.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="1086" column="18" lean-forward="false" selection-start-line="1086" selection-start-column="18" selection-end-line="1086" selection-end-column="18" />
+        <state relative-caret-position="15">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/colorful.css">
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="134">
+          <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="1096" column="19" lean-forward="true" selection-start-line="1096" selection-start-column="19" selection-end-line="1096" selection-end-column="19" />
           <folding />
         </state>
       </provider>
