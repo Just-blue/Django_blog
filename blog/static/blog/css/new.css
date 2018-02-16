@@ -1080,3 +1080,21 @@
 .glyphicon-menu-up:before {
     content: "\e260"
 }
+
+pre code {
+    padding: 0;
+    font-size: inherit;
+    color:#d0e9c6;
+    white-space: pre-wrap;
+    background-color:#ffff00;
+    border-radius: 0
+}
+
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #3200ff;
+    background-color: #f92672;
+    border-radius: 4px
+}
