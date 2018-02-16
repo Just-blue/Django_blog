@@ -1078,7 +1078,6 @@
 }
 
 p code {
-    white-space: normal;
     word-break: break-all;
     padding: 2px 4px;
     font-size: 90%;
@@ -1087,3 +1086,12 @@ p code {
     border-radius: 4px
 }
 
+pre {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+    word-break: break-all;
+}
