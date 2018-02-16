@@ -120,6 +120,10 @@
     padding-top: 20px;
 }
 
+.img-circle {
+    border-radius: 50%
+}
+
 .block #search_box {
     position: relative;
     padding-top: 25px;

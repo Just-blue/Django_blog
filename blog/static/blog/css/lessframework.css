@@ -56,7 +56,7 @@ px      68    160    252    344    436    528    620    712    */
 
     /* TABLE ISOTOPE ----------------------------------------------------*/
     .feature {
-        width: 732px;
+        width: 7px;
         /* 712 + 20 gap */
 
     }
@@ -75,7 +75,7 @@ px      68    160    252    344    436    528    620    712    */
 
     /* TABLET BLOG ------------------------------------------------------------*/
     #posts-list {
-        width: 420px;
+        width: 710px;
     }
 
     #posts-list article {
@@ -137,7 +137,7 @@ cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
     .wrapper {
-        width: 252px;
+        width: 352px;
     }
 
     h1 {
@@ -166,11 +166,7 @@ px      68    160    252    */
 
     /* MOBILE NAV  ----------------------------------------------------*/
     #nav {
-        display: none;
-    }
-
-    #comboNav {
-        display: block;
+        transform: scale(0.85);
     }
 
     /* MOBILE Logo ----------------------------------------------------*/
@@ -202,22 +198,21 @@ px      68    160    252    */
     }
 
     .feature {
-        width: 252px;
+        width: 316px;
         margin-left: 0px;
     }
 
     .feature li {
-        width: 252px;
-        margin-left: 0px;
+        width: 288px;
+        margin-left: 32px;
     }
 
     .feature li .thumb {
-        /*padding-top: 9px;*/
-        width: 232px;
+        width: 262px;
     }
 
     .feature li .thumb .date {
-        left: 86px;
+        left: 102px;
     }
 
     .feature-2 {
@@ -226,16 +221,16 @@ px      68    160    252    */
     }
 
     .feature-2 li {
-        width: 252px;
-        margin-left: 0px;
+        width: 288px;
+        margin-left: 32px;
     }
 
     .feature-2 li .thumb {
-        width: 232px;
+        width: 262px;
     }
 
     .feature-2 li .thumb .date {
-        left: 86px;
+        left: 102px;
     }
 
     /* MOBILE COLUMNS ----------------------------------------------------*/
@@ -248,29 +243,39 @@ px      68    160    252    */
 
     /* MOBILE BLOG ------------------------------------------------------------*/
     #posts-list {
-        width: 252px;
+        margin-top: -30px;
+        width: 352px;
+    }
+
+    #detail-list {
+        margin-top: -30px;
+        width: 352px;
     }
 
     #posts-list article {
         padding: 15px;
     }
 
-    #posts-list article .tape {
-        left: 66px;
+    #detail-list article {
+        padding: 15px;
     }
 
-    #de-list article .tape {
-        left: 66px;
+    #posts-list article .tape {
+        transform: scale(0.6);
+        left: 111px;
+    }
+
+    #detail-list article .tape {
+        left: 111px;
+        transform: scale(0.6);
     }
 
     #posts-list article .feature-image .entry-date {
         bottom: -66px;
-        right: auto;
-        left: 81px;
     }
 
     #posts-list article .excerpt {
-        margin-top: 90px;
+        margin-top: 30px;
     }
 
     #posts-list article .excerpt .post-heading {
@@ -288,7 +293,7 @@ px      68    160    252    */
 
     /* MOBILE SIDEBAR ----------------------------------------------------*/
     #sidebar {
-        width: 260px;
+        width: 350px;
     }
 
     /* MOBILE PORTFOLIO ----------------------------------------------------*/

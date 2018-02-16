@@ -9,26 +9,23 @@
 <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>郝志清的个人网站</title>
+    <title>HaoZhiqing's Website</title>
     <meta name="description" content="">
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 
+    <link rel="stylesheet" href={% static 'blog/css/new.css' %}>
     <link rel="stylesheet" href={% static 'blog/css/colorful.css' %}>
-    <link rel="stylesheet" href="{% static 'blog/fonts/fonts.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}">
     <link rel="stylesheet" media="screen" href="{% static 'blog/css/superfish.css' %}"/>
     <link rel="stylesheet" href="{% static 'blog/css/nivo-slider.css' %}" media="all"/>
     <link rel="stylesheet" href="{% static 'blog/css/tweet.css' %}" media="all"/>
     <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
-    <link rel="stylesheet" href="{% static 'blog/css/custom.css' %}">
     <link rel="stylesheet" media="all" href="{% static 'blog/css/lessframework.css' %}"/>
 
     <!-- All JavaScript at the bottom, except this Modernizr build.
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
-    <script src="{% static 'blog/js/modernizr-2.5.3.min.js' %}"></script>
 </head>
 
 <!-- HEADER -->
@@ -55,7 +52,7 @@
                 <li id="g-4"><a href="/Gallery">GALLERY<i><b></b></i></a></li>
                 <li id="g-5"><a href="/contact">CONTACT<i><b></b></i></a></li>
             </ul>
-            <div id="combo-holder"></div>
+            {#            <div id="combo-holder"></div>#}
         </div>
     </nav>
     <!-- ends nav -->
@@ -75,8 +72,9 @@
                 <li><i></i></li>
                 <li><a href="" title="Wechat"><img
                         src="{% static 'blog/img/social/GitHub.png' %}" alt="Facebook"/></a></li>
-                <li><a href="Mailto:ttykowlu@126.com?CC=ttykowlu@126.com&BCC=ttykowlu@126.com&Subject=Hello&Body=你好"><img
-                        src="{% static 'blog/img/social/Mail.png' %}" alt="twitter"/></a></li>
+                <li>
+                    <a href="Mailto:ttykowlu@126.com?CC=ttykowlu@126.com&BCC=ttykowlu@126.com&Subject=Hello&Body=你好"><img
+                            src="{% static 'blog/img/social/Mail.png' %}" alt="twitter"/></a></li>
                 <li><a href="https://www.instagram.com/Jut_Leon" title="Add to the circle"><img
                         src="{% static 'blog/img/social/Instagram.png' %}" alt="Ins"/></a></li>
                 <li class="right-corner"><i></i></li>
@@ -113,7 +111,7 @@
 
 <!-- scripts concatenated and minified via build script -->
 <script src="{% static 'blog/js/custom.js' %}"></script>
-
+<script src="{% static 'blog/js/modernizr-2.5.3.min.js' %}"></script>
 <!-- superfish -->
 <script src="{% static 'blog/js/superfish-1.4.8/js/hoverIntent.js' %}"></script>
 <script src="{% static 'blog/js/superfish-1.4.8/js/superfish.js' %}"></script>
