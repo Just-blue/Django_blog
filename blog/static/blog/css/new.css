@@ -1087,11 +1087,27 @@ p code {
 }
 
 pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #b53535;
+    word-wrap: break-word;
+    background-color: #e2e2e1;
+    border-radius: 7px;
+
+}
+
+pre code {
+    white-space: pre-wrap;
+    word-break: break-all;
     padding: 0;
     font-size: inherit;
     color: inherit;
-    white-space: pre-wrap;
     background-color: transparent;
     border-radius: 0;
-    word-break: break-all;
+
 }
