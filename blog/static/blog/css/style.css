@@ -548,7 +548,7 @@ nav {
     box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
 }
 
-#posts-list article .tape1 {
+#posts-list article .tape {
     position: absolute;
     top: -15px;
     left: 240px;
@@ -561,13 +561,12 @@ nav {
 #posts-list article .tape2 {
     position: absolute;
     top: -15px;
-    left: 400px;
+    left: 410px;
     display: block;
     width: 122px;
     height: 35px;
     background: url(../img/tape.png) no-repeat top left;
 }
-
 
 #posts-list article .feature-image {
     position: relative;
