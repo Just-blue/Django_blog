@@ -1,5 +1,4 @@
 
-
 .breadcrumb {
     margin-bottom: 20px;
 }
@@ -7,6 +6,7 @@
 .breadcrumb > li {
     display: inline-block
 }
+
 .breadcrumb > li a {
     color: #f3e0ac
 }
@@ -16,10 +16,6 @@
     color: #3492af;
     content: "/\00a0"
 }
-
-
-
-
 
 .glyphicon {
     position: relative;
@@ -1081,20 +1077,12 @@
     content: "\e260"
 }
 
-pre code {
-    padding: 0;
-    font-size: inherit;
-    color:#d0e9c6;
-    white-space: pre-wrap;
-    background-color:#ffff00;
-    border-radius: 0
-}
-
-
 code {
+    white-space: normal;
+    word-break: break-all;
     padding: 2px 4px;
     font-size: 90%;
-    color: #3200ff;
-    background-color: #f92672;
+    color: #9ed0ff;
+    background-color: #f9f3d7;
     border-radius: 4px
 }
