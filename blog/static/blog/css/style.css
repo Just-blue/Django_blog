@@ -255,7 +255,6 @@ nav {
 }
 
 .feature li .thumb {
-    padding-top: 9px;
     display: block;
     margin: 10px;
     width: 280px;
@@ -327,6 +326,7 @@ nav {
 
 .feature-2 li .thumb img {
     max-width: 100%;
+    margin-left: 3px;
 }
 
 .feature-2 li .caption {
@@ -378,6 +378,12 @@ nav {
     border-bottom: 5px solid #585246;
     margin-bottom: 30px;
     padding-bottom: 10px;
+}
+
+.page-content img {
+    max-width: 100%;
+    display: block;
+    position:relative;
 }
 
 .page-content .aboutme {
@@ -619,6 +625,84 @@ nav {
 }
 
 #posts-list article .meta a {
+    color: #c55221bd;
+    margin: 6px;
+    font-family: Hannotate SC;
+}
+
+/* BLOG DETAIL------------------------------------------------------------*/
+
+#detail-list {
+    position: relative;
+}
+
+#detail-list article {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 25px;
+    background: #f3e4c8;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+#detail-list article .tape {
+    position: absolute;
+    top: -15px;
+    left: 410px;
+    display: block;
+    width: 122px;
+    height: 35px;
+    background: url(../img/tape.png) no-repeat top left;
+}
+
+#detail-list article .feature-image {
+    position: relative;
+    line-height: 0em;
+}
+
+#detail-list article .feature-image img {
+    max-width: 100%;
+}
+
+#detail-list article .feature-image .entry-date {
+    position: absolute;
+    bottom: -66px;
+    right: 0px;
+    width: 51px;
+    height: 66px;
+    background: url(../img/date.png) no-repeat top left;
+    font-family: mensch;
+    font-size: 20px;
+    line-height: 1.1em;
+    text-align: center;
+    color: #f3e4c8;
+}
+
+#detail-list article .feature-image .entry-date .month {
+    margin-top: 7px;
+}
+
+#detail-list article .excerpt {
+    margin-top: 40px;
+    color: #585246;
+}
+
+#detail-list article .excerpt .post-heading {
+    font-family: mensch;
+    font-size: 36px;
+    line-height: 1.1em;
+    color: #585246;
+    display: block;
+    max-width: 480px;
+}
+
+#detail-list article .meta {
+    display: block;
+    border-bottom: 1px solid #585246;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#detail-list article .meta a {
     color: #c55221bd;
     margin: 6px;
     font-family: Hannotate SC;

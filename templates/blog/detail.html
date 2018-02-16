@@ -11,7 +11,7 @@
         <div class="wrapper cf">
 
             <!-- posts list -->
-            <div id="posts-list" class="cf">
+            <div id="detail-list" class="cf">
                 <article>
                     <div class="feature-image">
                         <a><img src="{{ post.image.url }}" alt="Thumbnail"/></a>
@@ -120,7 +120,7 @@
             <!-- ENDS sidebar -->
 
             <!-- comments list -->
-            <div id="comments-wrap" style="width: auto">
+            <div id="comments-wrap">
                 <h4 class="heading">{{ comment_list.count }} Comments</h4>
                 {% for comment in comment_list %}
                     <ol class="commentlist">
