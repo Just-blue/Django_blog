@@ -1089,9 +1089,7 @@ p code {
 pre code {
     white-space: pre-wrap;
     word-break: break-all;
-    color: inherit;
-    background-color:#000000;
-    padding: 9.5px;
+    color: #9ed0ff;
     margin: 0 0 10px;
     font-size: 13px;
     line-height: 1.42857143;
