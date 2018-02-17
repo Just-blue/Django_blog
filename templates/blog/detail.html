@@ -28,11 +28,12 @@
                             <span class="glyphicon glyphicon-user"></span><a href="#">{{ post.author }} </a>
                             <span class="glyphicon glyphicon-time"></span><a>{{ post.time }} </a>
                             <span class="glyphicon glyphicon-bookmark"></span><a>{{ post.category }}</a>
+                        </div>
+                        <div class="content">
+
+                            {{ post.body|custom_markdown }}
 
                         </div>
-                        <p>
-                            {{ post.body|custom_markdown }}
-                        </p>
                     </div>
                     <div class="meta">
 

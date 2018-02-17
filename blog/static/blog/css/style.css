@@ -56,6 +56,7 @@ body {
 }
 
 body a {
+    word-break: break-all;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -383,7 +384,7 @@ nav {
 .page-content img {
     max-width: 100%;
     display: block;
-    position:relative;
+    position: relative;
 }
 
 .page-content .aboutme {
@@ -683,7 +684,16 @@ nav {
 
 #detail-list article .excerpt {
     margin-top: 40px;
+    color: #989795;
+}
+
+#detail-list article .content {
+    margin-top: 20px;
     color: #585246;
+}
+
+#detail-list article .content P {
+    margin: 10px 2px 8px 2px;
 }
 
 #detail-list article .excerpt .post-heading {
@@ -696,6 +706,7 @@ nav {
 }
 
 #detail-list article .meta {
+    color: #989795;
     display: block;
     border-bottom: 1px solid #585246;
     font-size: 14px;
