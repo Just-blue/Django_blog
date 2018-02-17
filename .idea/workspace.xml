@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/blog/static/blog/css/new.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/new.css" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/reset.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/reset.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,17 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="1095" column="28" lean-forward="false" selection-start-line="1095" selection-start-column="28" selection-end-line="1095" selection-end-column="28" />
+            <state relative-caret-position="362">
+              <caret line="1094" column="28" lean-forward="false" selection-start-line="1094" selection-start-column="28" selection-end-line="1094" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -246,9 +244,9 @@
         <option value="$PROJECT_DIR$/blog/templatetags/custom_markdown.py" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/colorful.css" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/style.css" />
-        <option value="$PROJECT_DIR$/blog/static/blog/css/new.css" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/reset.css" />
         <option value="$PROJECT_DIR$/templates/blog/detail.html" />
+        <option value="$PROJECT_DIR$/blog/static/blog/css/new.css" />
       </list>
     </option>
   </component>
@@ -840,16 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templatetags/custom_markdown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/static/blog/css/colorful.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -874,11 +862,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
+    <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="1095" column="28" lean-forward="false" selection-start-line="1095" selection-start-column="28" selection-end-line="1095" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <marker date="1518832561942" expanded="false" signature="4675:4693" ph="..." />
+            <marker date="1518832561942" expanded="false" signature="5107:5125" ph="..." />
+            <marker date="1518832561942" expanded="false" signature="5968:5986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templatetags/custom_markdown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -890,15 +892,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <marker date="1518832561942" expanded="false" signature="4675:4693" ph="..." />
-            <marker date="1518832561942" expanded="false" signature="5107:5125" ph="..." />
-            <marker date="1518832561942" expanded="false" signature="5968:5986" ph="..." />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="1094" column="28" lean-forward="false" selection-start-line="1094" selection-start-column="28" selection-end-line="1094" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

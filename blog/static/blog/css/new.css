@@ -1086,12 +1086,11 @@ p code {
     border-radius: 4px
 }
 
-pre {
+pre code {
     white-space: pre-wrap;
     word-break: break-all;
     color: #ff002e;
     margin: 0 0 10px;
     font-size: 13px;
     line-height: 1.42857143;
-    border-radius: 15px 5px;
 }
