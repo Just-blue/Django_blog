@@ -137,7 +137,7 @@ cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
     .wrapper {
-        width: 352px;
+        width: 312px;
     }
 
     h1 {
@@ -166,7 +166,7 @@ px      68    160    252    */
 
     /* MOBILE NAV  ----------------------------------------------------*/
     #nav {
-        transform: scale(0.85);
+        transform: scale(0.75);
     }
 
     /* MOBILE Logo ----------------------------------------------------*/
@@ -244,12 +244,12 @@ px      68    160    252    */
     /* MOBILE BLOG ------------------------------------------------------------*/
     #posts-list {
         margin-top: -30px;
-        width: 352px;
+        width: 332px;
     }
 
     #detail-list {
         margin-top: -30px;
-        width: 352px;
+        width: 332px;
     }
 
     #posts-list article {
@@ -352,12 +352,12 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .wrapper {
-        width: 436px;
+        width: 400px;
     }
 
     /* WIDE MOBILE Logo ----------------------------------------------------*/
     #logo {
-        width: 436px;
+        width: 400px;
     }
 
     #logo img {
