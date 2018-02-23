@@ -696,6 +696,10 @@ nav {
     margin: 10px 2px 8px 2px;
 }
 
+#detail-list article .content p img {
+    width: 95%;
+}
+
 #detail-list article .excerpt .post-heading {
     font-family: mensch;
     font-size: 36px;
