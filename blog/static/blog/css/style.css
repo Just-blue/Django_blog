@@ -694,10 +694,23 @@ nav {
     padding:10px 0;
 }
 
-#detail-list article .content P {
+
+#detail-list article .content blockquote p {
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #f5f9f9a6;
+    border-left: 6px solid #b4b4b4;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#detail-list article .content p {
     padding:5px 0;
     margin: 10px 2px 8px 2px;
 }
+
 
 #detail-list article .content p img {
     width: 95%;
