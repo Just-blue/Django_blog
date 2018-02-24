@@ -690,9 +690,12 @@ nav {
 #detail-list article .content {
     margin-top: 20px;
     color: #585246;
+    line-height: 30px;
+    padding:10px 0;
 }
 
 #detail-list article .content P {
+    padding:5px 0;
     margin: 10px 2px 8px 2px;
 }
 
