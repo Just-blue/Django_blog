@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="016ad752-d7be-45cc-a86d-71ef807d25bf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/blog_project.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/files_handle.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20180127_0922.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0003_postmodel_tag.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0004_auto_20180128_1027.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0005_auto_20180128_1048.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0006_auto_20180129_0847.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0007_auto_20180129_0851.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0008_auto_20180129_0900.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0009_auto_20180129_0906.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0010_auto_20180129_0940.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0011_postmodel_views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0012_auto_20180202_1105.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0013_auto_20180202_1114.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0014_auto_20180203_2211.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/0015_auto_20180206_1729.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/img/dummies/slides/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/img/dummies/slides/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/img/dummies/slides/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/includes/bullet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/includes/demos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/includes/jquery-1.4.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/includes/sh_main.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/demo/includes/sheet_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/jquery.poshytip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/jquery.poshytip.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-darkgray/tip-darkgray.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-darkgray/tip-darkgray_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-green/tip-green_arrows.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-skyblue/tip-skyblue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-skyblue/tip-skyblue_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-twitter/tip-twitter_arrows.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-violet/tip-violet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-violet/tip-violet_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-yellow/tip-yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-yellow/tip-yellow_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple_arrows.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/images/arrows-ffffff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/images/shadow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/js/hoverIntent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/js/jquery-1.2.6.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/js/jquery.bgiframe.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/js/superfish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/static/blog/js/superfish-1.4.8/js/supersubs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/templatetags/blog_tags.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/templatetags/custom_markdown.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog_project/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog_project/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog_project/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blog_project/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/0002_auto_20180127_2100.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/migrations/0003_auto_20180128_0905.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/comments/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/files_handle.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/migrations/0002_remove_gallerymodel_image.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/migrations/0003_auto_20180202_1753.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/migrations/0004_auto_20180203_1018.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gallery/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img_del.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/message/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="016ad752-d7be-45cc-a86d-71ef807d25bf" name="Default" comment="" />
+      <created>1519956478345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519956478345</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="11" y="23" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

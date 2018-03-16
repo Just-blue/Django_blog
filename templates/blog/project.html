@@ -2,6 +2,7 @@
 
 {% load staticfiles %}
 {% block content %}
+{% load custom_markdown %}
 
     <!-- MAIN -->
     <div role="main" id="main">
@@ -26,7 +27,7 @@
                         <h2>REGULAR PAGE</h2>
                         <!-- project content -->
                         <div class="project-content">
-                            <p><br>{{ gallery.description }}
+                            <p><br>{{ gallery.description|custom_markdown  }}
                             </p>
                         </div>
                         <!-- ENDS project content -->

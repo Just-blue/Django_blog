@@ -1,7 +1,9 @@
 
 from django.db.models import Q
 from django.http import HttpResponse, Http404
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, render_to_response
+from django.template import RequestContext
+
 from blog.models import PostModel, CategoryModel, TagModel
 from django.views.generic import ListView, DetailView
 from comments.forms import CommentForm
@@ -136,3 +138,5 @@ class ContactView(IndexView):
 
 def project(request):
     return render(request, 'blog/project.html')
+
+
