@@ -1,92 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/img_del.py" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog_project.iml" afterPath="$PROJECT_DIR$/.idea/blog_project.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/base_generic.html" afterPath="$PROJECT_DIR$/templates/blog/base_generic.html" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" afterPath="$PROJECT_DIR$/templates/blog/detail.html" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/project.html" afterPath="$PROJECT_DIR$/templates/blog/project.html" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0b0e66058da219554bae5970911fed4aed4d649b.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0b0e66058da219554bae5970911fed4aed4d649b_iXILG8O.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0b0e66058da219554bae5970911fed4aed4d649b_iXILG8O.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0c14a34819a5d26ce3094f8f5fb0bcd969e8c77f.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0c14a34819a5d26ce3094f8f5fb0bcd969e8c77f.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0c7ceae92fedb7a5db9e0f1c0e7bfe163e1c14eb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0c7ceae92fedb7a5db9e0f1c0e7bfe163e1c14eb.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0d8e8eba1d6a3a1ee1cd116f9f65173785cc1ac9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/0d8e8eba1d6a3a1ee1cd116f9f65173785cc1ac9.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/1e8306ceae648544ad868ce1fd0da8d0d0074b46.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/1e8306ceae648544ad868ce1fd0da8d0d0074b46.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/6181e04d05c0a474d0d0d6de5513442af658e33c.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/6181e04d05c0a474d0d0d6de5513442af658e33c.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/wlop漫画鬼刀小绿高清壁纸.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/article/wlop漫画鬼刀小绿高清壁纸.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0ba8468258c318137aa3ee59584f64e0e971a74f.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0ba8468258c318137aa3ee59584f64e0e971a74f.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0bb619036470e0fefd9eb81a8a835381ff5ed932.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0bb619036470e0fefd9eb81a8a835381ff5ed932.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0db6aa1b47d3d72b9eba187ca50f9bcaf864dd5c.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0db6aa1b47d3d72b9eba187ca50f9bcaf864dd5c.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0db6aa1b47d3d72b9eba187ca50f9bcaf864dd5c_yvbD00x.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0db6aa1b47d3d72b9eba187ca50f9bcaf864dd5c_yvbD00x.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e2250cf08da0e27d2be2480510fa43db2af87eb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e2250cf08da0e27d2be2480510fa43db2af87eb.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e4020711b762f39009b18c2efd4308ac104b733.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e4020711b762f39009b18c2efd4308ac104b733.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e4020711b762f39009b18c2efd4308ac104b733_Vx6cLTK.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/0e4020711b762f39009b18c2efd4308ac104b733_Vx6cLTK.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/1e97c2d7075aed1460230f442ddf21462b9fdc35.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/1e97c2d7075aed1460230f442ddf21462b9fdc35.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/1f731d4773f2c6fc979d00992260cfe7a55df5b7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/1f731d4773f2c6fc979d00992260cfe7a55df5b7.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/2b0a758e9c9783183afc24a146165c7bc8b106c9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/2b0a758e9c9783183afc24a146165c7bc8b106c9.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/597ea06e06231.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/597ea06e06231.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_EjkiBka.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_EjkiBka.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_GlcUQdi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_GlcUQdi.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_WJMRJmh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_WJMRJmh.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_ojJD3ep.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_ojJD3ep.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_vSlH7uP.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/833887_vSlH7uP.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/devushka-art-ghostblade-wlop-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/devushka-art-ghostblade-wlop-1.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostblade-wlop-elf-elf-girl-girl-face-blue-eyes-elf-ears-po.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostblade-wlop-elf-elf-girl-girl-face-blue-eyes-elf-ears-po.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_L47I8Sn.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_L47I8Sn.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_XA4gbS9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_XA4gbS9.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_llHTnZO.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_llHTnZO.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_r2ffeHx.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/ghostbladr-fantasy-girl-comic-umbrella-traditional-clothes-painting_r2ffeHx.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/greg-rakozy-0LU4vO5iFpM.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/greg-rakozy-0LU4vO5iFpM.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/saber-lily1080P.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/saber-lily1080P.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_ZS4PJ8v.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_ZS4PJ8v.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_eGW7AOD.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_eGW7AOD.thumb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_hYtzsBS.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/gallery/sad-girl-and-flying-lanterns-digital-art-wallpaper_hYtzsBS.thumb.jpg" afterPath="" />
-    </list>
+    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +25,7 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="0">
               <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding />
             </state>
@@ -142,8 +57,8 @@
       <file leaf-file-name="base_generic.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/base_generic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3988#3994#0#HTML" expanded="true" />
@@ -206,16 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -560,13 +465,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="56" width="1426" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33887467" sideWeight="0.49710983" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33887467" sideWeight="0.49710983" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21531792" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -598,13 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/virtualenv/vir_blog/lib/python3.6/site-packages/markdown2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/__future__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -818,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="0">
           <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
           <folding />
         </state>
@@ -832,10 +731,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../script/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#footer#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3988#3994#0#HTML" expanded="true" />
