@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="" />
+    <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/img/favicon.ico" afterPath="$PROJECT_DIR$/blog/static/blog/img/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/base_generic.html" afterPath="$PROJECT_DIR$/templates/blog/base_generic.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,18 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_generic.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base_generic.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/base_generic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/static/blog/img/favicon.ico">
+      <file leaf-file-name="favicon.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/static/blog/img/favicon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/static/blog/img/filter.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -537,7 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/css/isotope.css" />
     <entry file="file://$PROJECT_DIR$/blog/static/blog/css/nivo-slider.css" />
     <entry file="file://$PROJECT_DIR$/blog/static/blog/css/bootstrap.css.map" />
     <entry file="file://$PROJECT_DIR$/blog/static/blog/css/elements.css" />
@@ -773,17 +783,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/base_generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/img/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/img/filter.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/img/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/base_generic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
