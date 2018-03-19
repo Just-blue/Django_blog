@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 
+    <link rel="shortcut icon" type="image/png" href={% static 'blog/img/favicon.ico' %}/>
     <link rel="stylesheet" href={% static 'blog/css/new.css' %}>
     <link rel="stylesheet" href={% static 'blog/css/colorful.css' %}>
     <link rel="stylesheet" media="screen" href="{% static 'blog/css/superfish.css' %}"/>
@@ -73,8 +74,8 @@
                 <li><a href="" title="Wechat"><img
                         src="{% static 'blog/img/social/GitHub.png' %}" alt="Facebook"/></a></li>
                 <li>
-                    <a href="Mailto:ttykowlu@126.com?CC=ttykowlu@126.com&BCC=ttykowlu@126.com&Subject=Hello&Body=你好"><img
-                            src="{% static 'blog/img/social/Mail.png' %}" alt="twitter"/></a></li>
+                    <a href="https://weibo.com/2207017643/profile?topnav=1&wvr=6&is_all=1"><img
+                            src="{% static 'blog/img/social/weibo.png' %}" alt="twitter"/></a></li>
                 <li><a href="https://www.instagram.com/Jut_Leon" title="Add to the circle"><img
                         src="{% static 'blog/img/social/Instagram.png' %}" alt="Ins"/></a></li>
                 <li class="right-corner"><i></i></li>
@@ -91,47 +92,54 @@
             </li>
         </ul>
         <!-- ENDS widgets -->
-        <div class="site-info" style="align-content: center" >
-			JUST_BLUE © 2018-&nbsp;<a href="http://haozhiqing.com">Hao Zhiqing's Blog</a>&nbsp;保留所有权利&nbsp;<img src="http://cuijiahua.com/wp-content/uploads/2018/01/icp.png" alt="" width="18" height="19">&nbsp;<a style="text-indent: 2em;" href="http://www.miitbeian.gov.cn" target="_blank" rel="noopener nofollow noreferrer">蒙ICP备18000946号</a>			<!--自定义查询-->
-			<!--
-			 | 耗时 0.648 秒 | 查询 223 次 | 内存 37.84 MB			-->
-			<!--自定义结束-->
-			<span class="add-info">
+        <div class="site-info" style="align-content: center">
+            JUST_BLUE © 2018-&nbsp;<a href="http://haozhiqing.com">Hao Zhiqing's Blog</a>&nbsp;保留所有权利&nbsp;<img
+                src="http://cuijiahua.com/wp-content/uploads/2018/01/icp.png" alt="" width="18" height="19">&nbsp;<a
+                style="text-indent: 2em;" href="http://www.miitbeian.gov.cn" target="_blank"
+                rel="noopener nofollow noreferrer">蒙ICP备18000946号</a>            <!--自定义查询-->
+            <!--
+             | 耗时 0.648 秒 | 查询 223 次 | 内存 37.84 MB			-->
+            <!--自定义结束-->
+            <span class="add-info">
                         <!--添加自定义运行时间-->
-                        博客稳定运行：<span id="span_dt_dt" style="color: #2F889A;"><font style="color:#C40000">1</font> 15天 <font style="color:#C40000">0</font> 时 <font style="color:#C40000">0</font> 分 <font style="color:#C40000">9</font> 秒</span> <script language="javascript">function show_date_time(){
-                        window.setTimeout("show_date_time()", 1000);
-                        BirthDay=new Date("3/1/2018 0:0:0");
-                        today=new Date();
-                        timeold=(today.getTime()-BirthDay.getTime());
-                        sectimeold=timeold/1000
-                        secondsold=Math.floor(sectimeold);
-                        msPerDay=24*60*60*1000
-                        e_daysold=timeold/msPerDay
-                        daysold=Math.floor(e_daysold);
-                        e_hrsold=(e_daysold-daysold)*24;
-                        hrsold=Math.floor(e_hrsold);
-                        e_minsold=(e_hrsold-hrsold)*60;
-                        minsold=Math.floor((e_hrsold-hrsold)*60);
-                        seconds=Math.floor((e_minsold-minsold)*60);
-                        span_dt_dt.innerHTML='<font style=color:#C40000>'+daysold+'</font> 天 <font style=color:#C40000>'+hrsold+'</font> 时 <font style=color:#C40000>'+minsold+'</font> 分 <font style=color:#C40000>'+seconds+'</font> 秒';
-                        }
-                        show_date_time();</script>
-<!--自定义运行时间结束-->
-								<!-- 百度统计  -->
+                        博客稳定运行：<span id="span_dt_dt" style="color: #2F889A;"><font
+                    style="color:#C40000">1</font> 15天 <font style="color:#C40000">0</font> 时 <font
+                    style="color:#C40000">0</font> 分 <font style="color:#C40000">9</font> 秒</span> <script
+                    language="javascript">function show_date_time() {
+                window.setTimeout("show_date_time()", 1000);
+                BirthDay = new Date("3/1/2018 0:0:0");
+                today = new Date();
+                timeold = (today.getTime() - BirthDay.getTime());
+                sectimeold = timeold / 1000
+                secondsold = Math.floor(sectimeold);
+                msPerDay = 24 * 60 * 60 * 1000
+                e_daysold = timeold / msPerDay
+                daysold = Math.floor(e_daysold);
+                e_hrsold = (e_daysold - daysold) * 24;
+                hrsold = Math.floor(e_hrsold);
+                e_minsold = (e_hrsold - hrsold) * 60;
+                minsold = Math.floor((e_hrsold - hrsold) * 60);
+                seconds = Math.floor((e_minsold - minsold) * 60);
+                span_dt_dt.innerHTML = '<font style=color:#C40000>' + daysold + '</font> 天 <font style=color:#C40000>' + hrsold + '</font> 时 <font style=color:#C40000>' + minsold + '</font> 分 <font style=color:#C40000>' + seconds + '</font> 秒';
+            }
+
+            show_date_time();</script>
+                <!--自定义运行时间结束-->
+                <!-- 百度统计  -->
 <script>
 var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?f643ef522aa682d0bae0feaa53dfbce3";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
+(function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f643ef522aa682d0bae0feaa53dfbce3";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
 })();
 </script>
 
 <script src="https://s19.cnzz.com/z_stat.php?id=1271483757&amp;web_id=1271483757" language="JavaScript"></script>			</span>
-		</div>
-{#        <div id="footer-bottom"><a target="_blank"#}
-{#                                   title="footer">{{ title }}sdsd</a></div>#}
+        </div>
+        {#        <div id="footer-bottom"><a target="_blank"#}
+        {#                                   title="footer">{{ title }}sdsd</a></div>#}
     </div>
     <!-- ENDS wrapper -->
 
