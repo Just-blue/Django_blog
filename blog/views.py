@@ -12,6 +12,9 @@ from comments.forms import CommentForm
 from gallery.models import GalleryModel
 from message.forms import MessageForm
 
+def page_not_found(request):
+    return render(request, 'blog/404.html')
+
 
 class IndexView(ListView):
     model = PostModel

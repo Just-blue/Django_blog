@@ -1,11 +1,13 @@
 from django.conf.urls import url
 from django.conf.urls.static import static
 from django.urls import path
+
 from . import views
 
 app_name = 'blog'
 
 urlpatterns = [
+
     path(r'', views.IndexView.as_view(), name='index'),
     path(r'blog', views.BlogView.as_view(), name='blog'),
 
