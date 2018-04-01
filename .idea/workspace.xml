@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="513d2648-aa78-45a5-9269-505aa7649fe5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/blog/404.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/style.css" afterPath="$PROJECT_DIR$/blog/static/blog/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" afterPath="$PROJECT_DIR$/blog_project/settings.py" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/base_generic.html" afterPath="$PROJECT_DIR$/templates/blog/base_generic.html" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/0a468eb695f85784e490c69625559e4e113916bc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/32c7b7ed32f6a0398344913433b4e12b17f2215d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/32c7b7ed32f6a0398344913433b4e12b17f2215d.thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/99bee298383f5549eac5cd30fed6a42b371711f4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/99bee298383f5549eac5cd30fed6a42b371711f4_CY4khrY.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/99bee298383f5549eac5cd30fed6a42b371711f4_CY4khrY.thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/9bb441d3c7efbe96b42179dffa522b3d7cfa4d9a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/9bb441d3c7efbe96b42179dffa522b3d7cfa4d9a.thumb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/article/eeab9092ab4019365ede51bfe5731b4daea037b8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/32dac27e196cfe9af5f304d2076081c4f6e5d72f.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/9bb441d3c7efbe96b42179dffa522b3d7cfa4d9a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/9f15485339f1fe07a943091eb9e84b359d0cd9b7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/a677b0ea00c7399bf2519a58b82eac3019d25021.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/d321d33e6f721eb61ec2d40446b6ca90105047ff.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/e7731aee33e45b414b8916200c1ec8292fa085ea.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploads/gallery/f039414a05b7f254b9493be9258ffd1236ced291.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -118,16 +138,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/static/blog/404/404.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3583">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -239,7 +249,6 @@
         <option value="$PROJECT_DIR$/blog/static/blog/css/lessframework.css" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/reset.css" />
         <option value="$PROJECT_DIR$/blog/static/blog/css/new.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/img_del.py" />
         <option value="$PROJECT_DIR$/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
@@ -254,6 +263,7 @@
         <option value="$PROJECT_DIR$/blog/static/blog/css/style.css" />
         <option value="$PROJECT_DIR$/templates/blog/base_generic.html" />
         <option value="$PROJECT_DIR$/blog_project/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -498,7 +508,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1426" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
@@ -506,7 +515,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33887467" sideWeight="0.49710983" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33887467" sideWeight="0.49710983" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21820809" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -730,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -824,7 +825,15 @@
     <entry file="file://$PROJECT_DIR$/blog_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
