@@ -1,4 +1,8 @@
 db.sqlite3
 img_del.py
-.idea.
+.idea/
 uploads
+*.pyc
+.idea/workspace.xml  # 添加单个文件路径
+.idea/misc.xml
+.idea/TextAnalysis.iml
