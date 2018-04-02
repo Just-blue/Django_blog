@@ -75,7 +75,8 @@ body p {
 #main h4,
 #main h5,
 #main h6 {
-    padding-top: 20px;
+    font-family: Weibei SC;
+    padding-top: 15px;
     line-height: 1.3em;
 }
 
@@ -691,9 +692,8 @@ nav {
     margin-top: 20px;
     color: #585246;
     line-height: 30px;
-    padding:10px 0;
+    padding: 10px 0;
 }
-
 
 #detail-list article .content blockquote p {
     padding: 20px;
@@ -707,14 +707,13 @@ nav {
 }
 
 #detail-list article .content p {
-    padding:5px 0;
+    padding: 5px 0;
     margin: 10px 2px 8px 2px;
 }
 
-
 #detail-list article .content p img {
     width: 70%;
-    height:70%;
+    height: 70%;
 }
 
 #detail-list article .excerpt .post-heading {
@@ -802,6 +801,7 @@ nav {
 }
 
 #sidebar .heading {
+    font-family: mensch;
     border-top: 5px solid #444444;
     border-bottom: 5px solid #444444;
     margin-bottom: 15px;

@@ -24,6 +24,7 @@ time, mark, audio, video {
 }
 
 pre {
+    line-height: 23px;
     padding-left: 28px;
 
 }

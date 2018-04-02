@@ -711,9 +711,9 @@ code, kbd, pre, samp {
 code {
     padding: 2px 4px;
     font-size: 90%;
-    color: #3200ff;
-    background-color: #f92672;
-    border-radius: 4px
+    color: #8c7ffb;
+    background-color: #dca3a382;
+    border-radius: 4px;
 }
 
 kbd {

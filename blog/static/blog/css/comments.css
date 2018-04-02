@@ -5,6 +5,7 @@
 }
 
 #comments-wrap .heading {
+    font-family: mensch;
     margin-bottom: 10px;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -218,6 +219,7 @@
 }
 
 #respond .heading {
+    font-family: mensch;
     margin-bottom: 41px;
     padding-top: 0px;
     padding-bottom: 10px;

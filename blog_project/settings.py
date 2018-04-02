@@ -26,7 +26,7 @@ SECRET_KEY = 'nt(%1s^*&c27$b3q-zr*derxaw%76we*=dwi$%c()(uwrc2!y$'
 MEDIA_URL='/uploads/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'uploads')
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.justhao.com','haozhiqing.com']
 # Application definition
 
