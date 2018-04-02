@@ -20,11 +20,9 @@ px      68    160    252    344    436    528    620    712    804    896    */
 
 /* Defaul tNav   ----------------------------------------------------*/
 #comboNav {
-    display: none;
 }
 
 #nav {
-    display: block;
 }
 
 /*		Tablet Layout: 768px.
@@ -137,7 +135,7 @@ cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
     .wrapper {
-        width: 351px;
+        width: 333px;
     }
 
     h1 {
@@ -166,12 +164,13 @@ px      68    160    252    */
 
     /* MOBILE NAV  ----------------------------------------------------*/
     #nav {
-        transform: scale(0.75);
+    	padding-right:20px;
+    	display:-webkit-box;
     }
 
     /* MOBILE Logo ----------------------------------------------------*/
     #logo {
-        width: 256px;
+    	display:-webkit-box;
     }
 
     #logo img {
@@ -293,7 +292,7 @@ px      68    160    252    */
 
     /* MOBILE SIDEBAR ----------------------------------------------------*/
     #sidebar {
-        width: 350px;
+        width: 332px;
     }
 
     /* MOBILE PORTFOLIO ----------------------------------------------------*/
