@@ -23,11 +23,11 @@ SECRET_KEY = 'nt(%1s^*&c27$b3q-zr*derxaw%76we*=dwi$%c()(uwrc2!y$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-MEDIA_URL='/uploads/'
-MEDIA_ROOT=os.path.join(BASE_DIR, 'uploads')
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 
 DEBUG = True
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.justhao.com','haozhiqing.com']
+ALLOWED_HOSTS = ['localhost', 'www.haozhiqing.com', 'haozhiqing.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'blog',  # 注册 blog 应用
     'comments',
     'gallery',
-    'message'
+    'message',
+    'gunicorn'
 ]
 
 MIDDLEWARE = [
