@@ -6,3 +6,5 @@ uploads
 .idea/workspace.xml  # 添加单个文件路径
 .idea/misc.xml
 .idea/TextAnalysis.iml
+static
+gunicorn.conf.py
